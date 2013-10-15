@@ -1,0 +1,37 @@
+ex05
+
+1/1
+
+pas besoin de deux dossiers de projet
+
+PyrEtoile
+->
+pyrEtoile
+GroupeEtoile
+->
+groupeEtoile
+voir https://www.dartlang.org/articles/style-guide/
+
+Valider si un texte a que des lettres (et les espaces).
+?    if(texte[i] ==" "){
+?      return false ;
+  }
+TestLesLettre(var texte){
+  for(var i = 0 ; i< texte.length ; i++){
+    if(texte[i] ==" "){
+      return false ;
+  }
+    }
+  return true;
+}
+formater le code!
+testLesLettre(var texte) {
+  for(var i = 0 ; i< texte.length ; i++) {
+    if (texte[i] ==" ") {
+      return false ;
+    }
+  }
+  return true;
+}
+
+
